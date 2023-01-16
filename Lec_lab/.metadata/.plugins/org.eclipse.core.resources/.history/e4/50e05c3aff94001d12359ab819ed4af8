@@ -1,0 +1,24 @@
+/*
+ * HW1_EX3.c
+ *
+ *  Created on: Jan 15, 2023
+ *      Author: DaNil
+ */
+
+#include<stdio.h>
+
+void main (void)
+{
+	int x,y, sum ;
+	printf("Enter the first integer: ");
+	fflush(stdin); fflush(stdout);
+	scanf("%d",&x);
+
+	printf("Enter the second integer: ");
+	fflush(stdin); fflush(stdout);
+	scanf("%d",&y);
+	sum = x+y ;
+	printf("The summation of %d and %d is %d : " , x , y , sum );
+
+
+}
