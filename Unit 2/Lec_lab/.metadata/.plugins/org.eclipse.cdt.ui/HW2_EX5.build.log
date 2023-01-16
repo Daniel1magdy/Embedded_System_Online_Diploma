@@ -1,0 +1,10 @@
+00:20:30 **** Rebuild of configuration Debug for project HW2_EX5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o HW2_EX5.o "..\\HW2_EX5.c" 
+..\HW2_EX5.c:11:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main (void)
+      ^~~~
+gcc -o HW2_EX5.exe HW2_EX5.o 
+
+00:20:31 Build Finished (took 885ms)
+
