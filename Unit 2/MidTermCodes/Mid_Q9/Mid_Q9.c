@@ -11,8 +11,8 @@
 
 void main (void)
 {
-	int x ;
-	char array[20];
+	int x , count1=0;
+	char array[20], temparray[20];
 
 	printf("please enter the string: ");
 	fflush(stdin); fflush(stdout);
@@ -20,11 +20,28 @@ void main (void)
 
 	x = strlen(array);
 
-	for (int i = x-1; i>=0 ; i-- )
+	for (int i =0 ; i < x ; i++)
+	{
+		count1++;
+		if(array[i]==' ')
 		{
-		printf("%c",array[i]);
+			for(int j =0;j<(count1-1);j++)
+			{
+				temparray[j]=array[j];
+			}
+			for(int k = count1; k<x;k++)
+			{
+				printf("%c",array[k]);
+			}
+			printf(" ");
+			for(int j =0;j<(count1-1);j++)
+			{
+				printf("%c",temparray[j]);
+			}
+
 		}
 
+	}
 }
 
 
