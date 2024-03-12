@@ -6,4 +6,4 @@ ARM Cross Toolchain.
 Written startup code.
 Written Linker Script.
 Written Makefile.
-The simulation was implemented using QEMU Simulator:
+The simulation was implemented using QEMU Simulator.
